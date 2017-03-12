@@ -1,0 +1,26 @@
+version: 0.1
+
+
+global-config:
+		endian: big, # little
+		word_swap: msw_first #lsw_first
+
+holding registers:
+  - 
+    tag: tag_1 # machine name a-z, 0-9 and _
+    data-address: 1234 Jbus address,		modbus convention address 41235
+    #bytes: 1-250 # default 2
+    datatype:	word # byte, dword, int uint dint, udint, real dreal, 'string[2]' )			
+    description: A description of the data
+    bit-secema:
+ - 
+    tag: tag_2 
+    data-address: 1234     
+    datatype:	word 
+    description: A description of the data    
+    
+input registers:
+
+input bits:
+	
+output bits:
